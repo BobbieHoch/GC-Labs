@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #f9fafc;
+    margin-left: 40px;
+}
+.title,
+h1 {
+    color: #000;
+}
+.title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navBar {
+    color: #69696a;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+ul.topNav {
+    list-style-type: none;
+    margin: 5ps 0px;
+    padding: 35px;
+}
+li.topNav {
+    padding: 8px 0px;
+}
+
+.textContent {
+    color: #69696a;
+    padding-left: 8px;
+    border-left: 3px solid #69696a;
+    width: 80%;
+    /* margin-right: 20%; */
+}
+
+a {
+    text-decoration: none;
+    color: #69696a;
+}
+button {
+    color: #fff;
+    background-color: #000;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    margin: left 30px;
+    font-size: 15px;
+}
+footer {
+    background-color: rgba(247, 193, 162, 0.7);
+    position: fixed;
+    width: 100%;
+    /* display: inline; */
+    /* align-items: baseline; */
+    /* height:40x; */
+    padding-left: 5%;
+    bottom: 0px;
+    left: 0px;
+}
+.chirpusTag {
+    /* display: inline; */
+    float: left;
+    margin: left 8px;
+    font-weight: bold;
+}
+.footerLinks {
+    display: inline-flex;
+    text-align: center;
+    align-items: stretch;
+    float: right;
+    /* margin: 20px; */
+    padding: 0px, 100px;
+    padding-right: 25%;
+}
+ul.footerLinks {
+    display: flex;
+    width: 55%;
+    list-style-type: none;
+}
+.footerLinks {
+    justify-content: space-between;
+}
+@media screen (min-width: 800px) {
+    
+}
