@@ -1,34 +1,34 @@
 body {
-	margin: 0;
+    margin: 0;
 }
 
 .main {
-	display: flex;
-	height: 100vh;
+    display: flex;
+    height: 100vh;
 }
 
 .form-container {
-	background-color: red;
-	flex: 1;
-	display: flex;
-	justify-content: center;
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 .form {
-	display: flex;
-	flex-direction: column;
-	width: 90 vw;
-	height: 70 vh;
-	padding: 20px;
-	background-color: white;
-	border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90 vw;
+    height: 70 vh;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
 }
 input,
 button {
-	padding: 5px;
-	border-radius: 5px;
+    padding: 5px;
+    border-radius: 5px;
     margin: 25px;
 }
-select{
-    padding:10px;
-    margin:10px;
+select {
+    padding: 10px;
+    margin: 10px;
 }
