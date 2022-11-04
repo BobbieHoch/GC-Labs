@@ -46,16 +46,25 @@ function editSubmission(array, index, score) {
 
     score >= 60 ? (array[index].passed = true) : array[(index.passed = false)];
     console.log(editSubmission(submissions, 1, 75));
+    console.log(editSubmission(submission, 0, 75))
+    
+
+
 
     ///////////////////////////////////////////////
     // 6. Declare a function named findSubmissionByName
     // Parameter(s): array, name
     // Functionality: return the object in the array that has the provided name. Use the find method.
+    
     function findSubmissionByName(array, name) {
         return array.find((element) => element.name === name);
     }
     const foundName = findSubmissionByName(submisssions, "Jack");
     console.log(foundName);
+
+
+
+
 //////////////////////////////////////
 // 7. Declare a function named findLowestScore
 // Parameter(s): array
