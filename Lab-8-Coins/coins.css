@@ -1,34 +1,81 @@
 body {
-    margin: 0;
+    margin: 25px;
+    /* height: 100vh */
 }
 
 .main {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
-
+h2,
+#quanto,
+#numis,
+#show {
+    text-align: center;
+    font-weight: bold;
+}
 .form-container {
-    background-color: skyblue;
-    flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: skyblue;
+    width: 90 vw;
+    height: 10 vh;
+    padding: 20px;
+    border-radius: 10px;
 }
 .form {
     display: flex;
     flex-direction: column;
     width: 90 vw;
-    height: 70 vh;
+    justify-content: center;
+    /* height: 10 vh;
     padding: 20px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 input,
-button {
-    padding: 5px;
+button,
+#moneyType {
+    padding: 10px;
     border-radius: 5px;
     margin: 25px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 select {
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+}
+
+.quarter {
+    height: 30px;
+    width: 30px;
+    background-image: url("quarter.jpg");
+}
+.dime {
+    height: 15px;
+    width: 15px;
+    background-image: url("dime.jpg");
+}
+.nickel {
+    height: 25px;
+    width: 25px;
+    background-image: url("nickel.jpg");
+}
+.penny {
+    height: 30px;
+    width: 30px;
+    background-image: url("penny.jpg");
+}
+.coinMaker {
+    border-radius: 50%;
+    display: flex;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
