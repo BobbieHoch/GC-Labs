@@ -1,5 +1,13 @@
-#myalph {
+.dropdown{
+    width: 100%;
+    background-color: blanchedalmond;
+
+}#myalph {
     color: blue;
+}
+#mynums{
+  text-align: center;
+  display:none;
 }
 
 p {
@@ -9,15 +17,8 @@ p {
     padding: 50px;
     font-weight: bold;
 }
-
-.dropdown{
-    width: 100%;
-    background-color: blanchedalmond
-    ;
+button{
+  width: 50vw;
+  text-align: center;
+  margin-left: 100px;
 }
-
-<style>
-      .hide {
-        display: none;
-      }
-    </style>

@@ -5,7 +5,7 @@ alphabet.addEventListener("click", showLetters);
 
 
 function showLetters() {
-    alphabet.style.display = 'block';
+    // alphabet.style.display = 'block';
     numbers.style.display = 'none';
 }
 showLetters();
@@ -19,12 +19,12 @@ function showNumbers() {
     alphabet.style.display = 'none';
 }
 
-const changeLable = document.querySelector(".dropdown");
+const changeLable = document.querySelector("#btn");
 
 changeLable.addEventListener("click", switchLable)
 
 function switchLable() {
-    changeLable.innerHTML = 'Letters Menu';
+    changeLable.button.innerHTML = 'Letters Menu';
 }
 
 
