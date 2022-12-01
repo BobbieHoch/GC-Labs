@@ -1,24 +1,25 @@
-const alphabet = document.getElementById("myalpha");
-const numbers = document.getElementById("mynums");
+const letters = document.getElementById("dropdown-item1");
+const numbers = document.getElementById("dropdown-item2");
 
 // console.log(alphabet);
 
 alphabet.addEventListener("click", showLetters);
+numbers.addEventListener("click", showNumbers);
 
 function showLetters() {
     let alphabet = document.getElementById("myalpha");
-    let numbers = document.getElementById("mynums");
+    let numerals = document.getElementById("mynums");
     alphabet.style.display = "block";
-    numbers.style.display = "none";
+    numerals.style.display = "none";
 }
 // showLetters();
 
-numbers.addEventListener("click", showNumbers);
+
 
 function showNumbers() {
     let alphabet = document.getElementById("myalpha");
-    let numbers = document.getElementById("mynums");
-    numbers.style.display = "block";
+    let numerals = document.getElementById("mynums");
+    numerals.style.display = "block";
     alphabet.style.display = "none";
 }
 
