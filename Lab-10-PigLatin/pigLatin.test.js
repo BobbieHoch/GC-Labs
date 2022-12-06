@@ -27,7 +27,7 @@ describe('words that start with vowels with capital letters converted to lowerca
   });
   test("translates Oregami changes to lower case and adds 'way' ", () => {
     let startsWithVowelCap = pigLatin.translate("Attack");
-    expect(startsWithVowelCap).toBe('atackway');
+    expect(startsWithVowelCap).toBe('attackway');
   }); test("translates Oregami changes to lower case and adds 'way' ", () => {
     let startsWithVowelCap = pigLatin.translate("Orange");
     expect(startsWithVowelCap).toBe('orangeway');
@@ -37,7 +37,7 @@ describe('words that start with vowels with capital letters converted to lowerca
 
 
 // words that start with one consonant… write tests for the second letter being several different vowels
-describe('words that start with one consonants', () => {
+describe('words that start with one consonant', () => {
   test("translates 'particle'moving p to end and adding 'ay' ", () => {
     let startsWithConsonant = pigLatin.translate("particle");
     expect(startsWithConsonant).toBe('articlepay');
