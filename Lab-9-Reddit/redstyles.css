@@ -1,14 +1,16 @@
 body{
+ 
+     */
     margin:0px;
     background-color: skyblue;
     font-family: arial;
-    display:flexbox;
+    /* display:flexbox; */
     
     /* text-align: center; */
     }
 
 h1{
-    display: inline-flex;
+    /* display: inline-flex; */
     vertical-align: middle;
     word-wrap:normal;
     font-size: 15px;
@@ -17,7 +19,7 @@ h1{
 
 }
 img{ 
-    display: inline-flex;
+    /* display: inline-flex; */
     border: 2px solid black;
     height: 18vh;
     width: 18hv;
@@ -27,6 +29,7 @@ img{
    
 }
  a{
+    /* display: inline-flex; */
     font-size: 14px;
     float:center;
     display:float; 
