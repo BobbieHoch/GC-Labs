@@ -7,8 +7,9 @@ describe('Greeter greeting combines with name', () => {
         //instantiate any objects you need, and set up your test
        
         //act
-       let salutation  = greeter()();
+        let salutation = Greeter()();
 
         //assert
-        expect(greeter).toBe("Clark Kent");
+        expect(Greeter).toBe("Clark Kent");
     })
+})

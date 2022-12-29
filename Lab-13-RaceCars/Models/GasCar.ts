@@ -6,7 +6,7 @@ class GasCar implements IRacer {
     fuel: number = 10;
     //interface does not know the implementation of these methods
    
-    constructor(team: string, fuel?: number = 10) {
+    constructor(team: string, fuel: number = 10) {
         this.team = team;
         this.speed = 0;
 

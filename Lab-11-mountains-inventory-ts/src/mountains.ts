@@ -4,9 +4,9 @@
 //interface/////////////////establish property:type/////////////////////////
 interface Mountain{
     name: string,
-    height: number
+    height: number,
     //optional property
-    hasBeenClimbed?:boolean
+    // hasBeenClimbed?:boolean,
 }
 //IMPLEMENT---MUST HAVE ALL THE PROPERTIES
 // let newMountain: Mountain = {
@@ -21,7 +21,7 @@ let mountains: Mountain[] = [
 ];
 
 //function signature
-  // Option 1 - done with regular For Loop(Array is made up of items(important word))
+  // Option 1 - done with regular ForLoop(Array is made up of items(important word))
 function findNameOfTallestMountain1(array:Mountain[]) : string {
     let result:string = '';
     let newHeight:number = 0;
@@ -53,19 +53,21 @@ function findNameOfTallestMountain3(array:Mountain[]) : string {
     return tallestMountain.name;
 }
 console.log(findNameOfTallestMountain1(mountains));
+// console.log(findNameOfTallestMountain2)(mountains);
+// console.log(findNameOfTallestMountain3)(mountains);
 //npm run start:dev
 
-let thisVariableCanBeAnything: any;
-let stringOrNumber: string|number;
-stringOrNumber = "Robert";
+// let thisVariableCanBeAnything: any;
+// let stringOrNumber: string|number;
+// stringOrNumber = "Robert";
 
 //     {function, interface}
-export {findNameOfTallestMountain1, Mountain}
+export {findNameOfTallestMountain1, findNameOfTallestMountain2,findNameOfTallestMountain3, Mountain }
 
 
 //optional parameter -Interface Property or parameter
-function Calculate(a: number, b: number, c?: number) {
+// function Calculate(a: number, b: number, c?: number) {
     
-}
-Calculate(1, 2);
-Calculate(1, 2, 3);
+// }
+// Calculate(1, 2);
+// Calculate(1, 2, 3);
