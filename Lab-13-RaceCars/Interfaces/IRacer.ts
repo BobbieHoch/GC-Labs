@@ -1,7 +1,7 @@
 
 //abstract//
 //contract
-interface IRacer {
+export interface IRacer {
     team: string;
     speed: number;
     //interface does not know the implementation of these methods
@@ -10,4 +10,3 @@ interface IRacer {
 //abstract structure that will never have new
 }
  //interface will require all features of IRacer//
-export {IRacer}

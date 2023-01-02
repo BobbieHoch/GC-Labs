@@ -1,14 +1,15 @@
 import { IRacer } from "../Interfaces/IRacer";
 
-class GasCar implements IRacer {
+export class GasCar implements IRacer {
     team: string;
     speed: number;
-    fuel: number = 10;
+    fuel: number;
     //interface does not know the implementation of these methods
    
     constructor(team: string, fuel: number = 10) {
         this.team = team;
         this.speed = 0;
+        this.fuel = fuel;
 
         if (fuel !== undefined) {
             this.fuel = fuel;
@@ -20,16 +21,15 @@ class GasCar implements IRacer {
         this.fuel -= 1;
     }
     IsFuelEmpty(): boolean {
-        if (this.fuel <= 0) {
-            return true;
-        }
-        else {
-            return false
-            
-        
-        }
+        return this.fuel <= 0;
+        // if (this.fuel <= 0) {
+        //     return true;
+        // }
+        // else {
+        //     return false
+        // }
     }
 }
-    export{GasCar}
+ 
     
 

@@ -14,6 +14,12 @@ export function findRacersWithEmptyFuel(racers: IRacer[]) :IRacer[] {
     return emptyRaceArray;
 
 }
+
+//Alternative function
+// export function findRacersWithEmptyFuel(racers: Racer[]): Racer[] {
+//   return racers.filter((racer) => racer.isFuelEmpty());
+// }
+
 //DRY=Don't Repeat Yourself
 export function findAverageSpeed(racers: IRacer[]): number {
     let totalSpeed = 0;
@@ -35,7 +41,5 @@ export function getFastestRacer(racerA: IRacer, racerB: IRacer):IRacer | null {
     }
     else {
         return null;
-    }
-
-        
+    }     
     }

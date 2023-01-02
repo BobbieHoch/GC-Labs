@@ -1,7 +1,7 @@
 import { Greeter } from "./Greeter";
 
 class JavaScriptGreeter extends Greeter { 
-    tagname: string;
+    tagName: string;
 
 
     constructor(
