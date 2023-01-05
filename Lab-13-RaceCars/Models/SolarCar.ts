@@ -36,7 +36,7 @@ import { IRacer } from "../Interfaces/IRacer";
         this.speed += 1;
       }
     
-      isFuelEmpty(): boolean {
+      IsFuelEmpty(): boolean {
         return false;
       }
     }

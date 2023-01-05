@@ -21,13 +21,13 @@ export class GasCar implements IRacer {
         this.fuel -= 1;
     }
     IsFuelEmpty(): boolean {
-        return this.fuel <= 0;
-        // if (this.fuel <= 0) {
-        //     return true;
-        // }
-        // else {
-        //     return false
-        // }
+        // return this.fuel <= 0;
+        if (this.fuel <= 0) {
+            return true;
+        }
+        else {
+            return false
+        }
     }
 }
  

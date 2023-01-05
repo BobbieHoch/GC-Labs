@@ -43,9 +43,9 @@ describe('GasCar', () => {
     expect(gasCar.fuel).toBe(3);
   });
 
-  test('isFuelEmpty returns true when fuel is 0', () => {
+  test('IsFuelEmpty returns true when fuel is 0', () => {
     const gasCar = new GasCar('XYZ Team', 0);
-    expect(gasCar.isFuelEmpty()).toBe(true);
+    expect(gasCar.IsFuelEmpty()).toBe(true);
   });
 
   test('isFuelEmpty returns false when fuel is greater than 0', () => {
